@@ -42,3 +42,11 @@
     overflow-wrap: break-word;
     overflow: scroll;
 }
+
+/*Displayed elements*/
+
+code {
+    background-color: rgba(226, 226, 226, 0.466);
+    margin: 15px;
+    padding: 3px;
+}

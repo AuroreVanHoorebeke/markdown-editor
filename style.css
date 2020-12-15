@@ -1,0 +1,19 @@
+.split {
+    height: 100vh;
+    width: 50vw;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    overflow-x: hidden;
+    padding-top: 20px;
+}
+
+.left{
+    left: 0;
+    background-color: red;
+}
+
+.right{
+    right:0;
+    background-color: blue;
+}

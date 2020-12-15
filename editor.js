@@ -55,9 +55,9 @@ function mdToHTML(text){
         .replace(/\n/gim, '<br />')
         .replace(/\s{2}/gim, '<br />')
         .replace(/-{3,}/gim, '<hr />')
-        // .replace(/^\*{3,}$/gim, '<hr />')
-        // .replace(/^\_{3,}$/gim, '<hr />')
+        //.replace(/^\*{3,}$/gim, '<hr />')
+        //.replace(/^\_{3,}$/gim, '<hr />')
         //.replace(/- (.*\n$)/gim, '<ul><li>$1</li></ul>')
-        .replace(/`(.*)`/gim, '<code>$1</code>')
+        .replace(/\`(.*)\`/gim, '<code>$1</code>')
     return input.trim()
 }
